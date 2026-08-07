@@ -1,0 +1,49 @@
+# Licensed and local datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep empty data directories
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Model and cache files
+models/
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Distribution files
+build/
+dist/
+*.egg-info/
